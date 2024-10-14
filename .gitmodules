@@ -1,0 +1,4 @@
+[submodule "openapi"]
+	path = openapi
+	url = https://github.com/microsoft/OpenAPI.NET.git
+	branch = release/2.0.0
