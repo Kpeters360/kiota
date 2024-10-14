@@ -19,6 +19,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EAAC5CEA-33B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiotaGenerated", "src\Kiota.Generated\KiotaGenerated.csproj", "{01ABDF23-60CD-4CE3-8DC7-8654C4BA1EE8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "openapi", "openapi", "{C0E41CB1-1D9E-4552-803C-C49DD1FF8D5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{46A44E01-2C17-4A31-927F-1DA6793A263C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.OpenApi", "openapi\src\Microsoft.OpenApi\Microsoft.OpenApi.csproj", "{86061C3F-535D-4309-A25A-691A444E2D10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.OpenApi.Readers", "openapi\src\Microsoft.OpenApi.Readers\Microsoft.OpenApi.Readers.csproj", "{3F4A6106-0698-4CD6-A03A-447F60D7D829}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +57,14 @@ Global
 		{01ABDF23-60CD-4CE3-8DC7-8654C4BA1EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01ABDF23-60CD-4CE3-8DC7-8654C4BA1EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01ABDF23-60CD-4CE3-8DC7-8654C4BA1EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86061C3F-535D-4309-A25A-691A444E2D10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86061C3F-535D-4309-A25A-691A444E2D10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86061C3F-535D-4309-A25A-691A444E2D10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86061C3F-535D-4309-A25A-691A444E2D10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F4A6106-0698-4CD6-A03A-447F60D7D829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4A6106-0698-4CD6-A03A-447F60D7D829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4A6106-0698-4CD6-A03A-447F60D7D829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4A6106-0698-4CD6-A03A-447F60D7D829}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,5 +75,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{E4C108A5-A13F-4C3F-B32A-86210A4EC52A} = {2DF34BB8-B19F-4623-9E3D-9F59A14C0660}
 		{01ABDF23-60CD-4CE3-8DC7-8654C4BA1EE8} = {EAAC5CEA-33B8-495D-9CD0-B36794B8AFE7}
+		{46A44E01-2C17-4A31-927F-1DA6793A263C} = {C0E41CB1-1D9E-4552-803C-C49DD1FF8D5F}
+		{86061C3F-535D-4309-A25A-691A444E2D10} = {46A44E01-2C17-4A31-927F-1DA6793A263C}
+		{3F4A6106-0698-4CD6-A03A-447F60D7D829} = {46A44E01-2C17-4A31-927F-1DA6793A263C}
 	EndGlobalSection
 EndGlobal
